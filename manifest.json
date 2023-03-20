@@ -1,0 +1,15 @@
+{
+    "name": "데브 애드블록",
+    "version": "1.4",
+    "description": "광고를 없애주는 확장 프로그램",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "16": "D.png",
+        "48": "D.png",
+        "128": "D.png"
+    },
+    "manifest_version": 2
+}
